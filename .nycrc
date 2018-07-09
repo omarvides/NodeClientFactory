@@ -1,0 +1,23 @@
+{
+    "check-coverage": true,
+    "per-file": false,
+    "lines": 80,
+    "statements": 80,
+    "functions": 80,
+    "branches": 80,
+    "report-dir": ".coverage",
+    "exclude": [
+        "test/**/*.spec.ts",
+        "lib/enum/**/*.ts",
+        "lib/types",
+        "index.ts"
+    ],
+    "extension": [
+      ".ts",
+      ".tsx"
+    ],
+     "reporter": [
+      "lcov",
+      "text-summary"
+    ]
+}
