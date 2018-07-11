@@ -1,7 +1,7 @@
 {
   "name": "clientfactory",
   "version": "1.0.0",
-  "description": "",
+  "description": "Library to handle client requests",
   "main": "build/index.js",
   "scripts": {
     "start": "ts-node index.ts",
