@@ -28,6 +28,6 @@
     "typescript": "^2.9.1"
   },
   "publishConfig": {
-    "registry": "http://localhost:8081/repository/npmRepository/"
+    "registry": "http://192.168.10.3:8081/repository/npmRepository/"
   }
 }
