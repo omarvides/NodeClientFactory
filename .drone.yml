@@ -1,6 +1,10 @@
 pipeline:
-  backend:
+  specs:
     image: node
     commands:
       - npm install
       - npm test
+  release: 
+      - npm release
+  clean:
+      - npm prune --production
