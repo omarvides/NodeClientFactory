@@ -4,7 +4,4 @@ pipeline:
     commands:
       - npm install
       - npm test
-  release: 
-      - npm release
-  clean:
       - npm prune --production
